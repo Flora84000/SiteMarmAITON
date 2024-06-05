@@ -1,0 +1,16 @@
+{
+    "liveSassCompile.settings.formats": [
+      {
+        "format": "compressed",
+        "extensionName": ".min.css",
+        "savePath": "/dist/styles"
+      },
+      {
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "/dist/styles"
+      }
+    ]
+  }
+
+  // permet de mettre des préférence en fonction des extensions que l'on utilise (pour live sass)
