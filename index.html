@@ -2,24 +2,71 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <title>Titre de ma page</title>
+        <title>Projet MarmAIton</title>
         <meta name="description" content="Description de ma page">
         <link rel="stylesheet" href="dist/styles/main.css">
+        <!--TYPO VARUNA-->
+        <link href="https://fonts.cdnfonts.com/css/varuna" rel="stylesheet">
+        <!--TYPO FREDOKA-->
+        <link href="https://fonts.cdnfonts.com/css/fredoka" rel="stylesheet">
+        <!--TYPO WORKSANS-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header id="header">
-            <div class="container">
-                <a href="index.html">
-                    <img src="dist/images/logo.png" alt="Logo de mon site Internet" class="logo">
-                </a>
-                <nav>
-                    <ul>
-                        <li><a href="pages/presentation.html">ComUn'flo</a></li>
-                        <li><a href="pages/prestations.html">Prestations</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
+        <!--HEADER-->
+        <header>
+            <div class="header_">
+                <div class="leftContainer">
+                    <div class="header_img">
+                        <img src="dist/images/header_img.png" alt="" >
+                    </div>
+                    <div>
+                        <nav>
+                            <ul class="leftNews">
+                                <li class="news_1"><a href="#">À propos</a></li>
+                                <li class="news_2"><a href="#">Ressources</a></li>
+                            </ul>
+                        </nav>
+                    </div> 
+                </div>
+                <div class="rightContainer">
+                    <div>
+                        <nav>
+                            <ul class="rightNews">
+                                <li class="news_3"><a href="#">Se connecter</a></li>
+                                <li class="news_4"><a href="#">S'inscrire</a></li>
+                                <!--<li class="news_4"><a href="" style="text-decoration: none;"><img class="picto_1" src="dist/images/loupe.png" title="X" alt="lienRecherhce"></a>-->
+                            </ul>
+                        </nav>
+                    </div> 
+                </div> 
             </div>
         </header>
+        <!--HEADER FIN-->
+        <main>
+            <!--HOMEHERO-->
+            <homeHero>
+                <div class="textContainer">
+                    <span class="mediaContainer_img__texte1">Ne Cuisinez Plus Jamais Seul•e Cookease est Là pour Vous</span>
+                    <p class="mediaContainer_img__texte2">
+                        Faire connaissance avec Cookease pour une expérience personnalisée
+                    </p>
+                    <div class="buttomContainer">
+                        <div class="conversation_container">
+                            <!--LIEN BOUTON JSON--><div class="conversation"></div>
+                        </div>
+                        <div class="configuration_container">
+                            <!--LIEN BOUTON JSON--><div class="configuration"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="homeHero_img">
+                    <img src="dist/images/homeHero_img.png" alt="" >
+                </div>
+            </homeHero>
+            <!--FIN HOMEHERO-->
+        </main>    
     </body>
 </html>

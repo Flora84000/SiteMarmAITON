@@ -1,7 +1,16 @@
 body {
-  color: red;
+  margin: auto;
+  background-color: #FDF9E6;
+  width: 100%;
 }
 
 :root {
   font-size: 62.5%;
-}/*# sourceMappingURL=main.css.map */
+}
+
+* {
+  font-family: "Work Sans", sans-serif;
+  color: #000000;
+}
+
+/*_____PAGE RECETTE_____*//*# sourceMappingURL=main.css.map */

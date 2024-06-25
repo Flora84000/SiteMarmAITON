@@ -1,0 +1,15 @@
+html {
+    font-size: 62.5%; }
+  
+  body {
+    margin: auto;
+    background-color: #FDF9E6;
+    width: 100%; }
+  
+  * {
+    font-family: "Work Sans", sans-serif;
+    color: #000000; }
+  
+  :root {
+    --padding: 10px;
+    --margin: 10px; }

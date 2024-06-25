@@ -1,0 +1,29 @@
+// typo, variables...
+
+$primaryColor: #FDF9E6;
+$secondColor: #FFFB9B;
+$thirdColor: #BAE9B9;
+$fourthColor: #F2FCF9;
+$fifthColor: #E2F8F2;
+$sixthColor: #FFFEFA;
+$accentColor: #1C551B;
+$typoColor: #000000;
+$typoOptionColor: #737373;
+$typofond:rgb(162, 162, 162);
+$fontPrincipalFamily: 'Fredoka', sans-serif;
+$secondFontFamily: "Work Sans", sans-serif;
+$thirdFontFamily: 'Varuna', sans-serif;
+
+body {
+    margin: auto ;
+    background-color: $primaryColor;
+    width: 100%;
+}
+:root {
+    font-size: 62.5%;
+}
+
+*{
+    font-family: $secondFontFamily;
+    color: $typoColor
+}
