@@ -15,15 +15,17 @@ body {
   --margin: 10px; }
 
 /*_________*/
+
 /* CARROUSEL RECETTE */
 
+/* NOUVEAUTES */
 .sectionNews__carousel {
   width: 960px;
   position: relative;
   overflow: hidden;
 }
 
-.sectionNews__carousel__carousel {
+.sectionRecipe__carousel__carousel {
   display: flex;
   width: 960px;
 }
@@ -49,9 +51,51 @@ body {
   cursor: pointer;
 }
 
-/*_________*/
+/* DE SAISON */
+.sectionSeason__carousel {
+  width: 960px;
+  position: relative;
+  overflow: hidden;
+}
 
-.sectionNews__paginationContainer{
+.sectionNews__carousel__arrowContainer{
+  width: 960px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ARTICLES */
+.sectionArticles__carousel {
+  width: 960px;
+  position: relative;
+  overflow: hidden;
+}
+
+.sectionArticles__carousel__arrowContainer{
+  width: 960px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* AVIS */
+.sectionReviews__carousel {
+  width: 960px;
+  position: relative;
+  overflow: hidden;
+}
+
+.sectionReviews__carousel__arrowContainer{
+  width: 960px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*____*/
+
+.sectionRecipe__paginationContainer{
   width: 100px;
   display: flex;
   justify-content: center;
@@ -74,3 +118,24 @@ body {
 .pagination.active {
   background-color: #000000;
 }
+
+/*_________*/
+
+/* FOOTER */
+
+.legalObligations {
+  list-style: none; /* Supprimer les puces de la liste */
+  padding: 0; /* Supprimer le padding */
+  margin: 0; /* Supprimer la marge */
+  display: flex; /* Utiliser flexbox pour aligner les éléments horizontalement */
+}
+
+.legalObligations li {
+  margin-right: 10px; /* Espace entre les éléments */
+}
+
+.legalObligations li a {
+  text-decoration: none; /* Supprimer la décoration des liens */
+}
+
+/*_________*/
