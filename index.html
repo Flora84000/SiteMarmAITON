@@ -17,27 +17,26 @@
     <body>
         <!--HEADER-->
         <header>
-            <div class="header_">
-                <div class="leftContainer">
-                    <div class="header_img">
+            <div class="header">
+                <div class="header__leftContainer">
+                    <div class="header__leftContainer__img">
                         <img src="dist/images/header_img.png" alt="" >
                     </div>
                     <div>
                         <nav>
-                            <ul class="leftNews">
-                                <li class="news_1"><a href="#">À propos</a></li>
-                                <li class="news_2"><a href="#">Ressources</a></li>
+                            <ul class="header__leftContainer__leftLinks">
+                                <li class="link_1"><a href="#">À propos</a></li>
+                                <li class="link_2"><a href="#">Ressources</a></li>
                             </ul>
                         </nav>
                     </div> 
                 </div>
-                <div class="rightContainer">
+                <div class="header__rightContainer">
                     <div>
                         <nav>
-                            <ul class="rightNews">
-                                <li class="news_3"><a href="#">Se connecter</a></li>
-                                <li class="news_4"><a href="#">S'inscrire</a></li>
-                                <!--<li class="news_4"><a href="" style="text-decoration: none;"><img class="picto_1" src="dist/images/loupe.png" title="X" alt="lienRecherhce"></a>-->
+                            <ul class="header__rightContainer__rightLinks">
+                                <li class="link_3"><a href="#">Se connecter</a></li>
+                                <li class="link_4"><a href="#">S'inscrire</a></li>
                             </ul>
                         </nav>
                     </div> 
@@ -47,26 +46,147 @@
         <!--HEADER FIN-->
         <main>
             <!--HOMEHERO-->
-            <homeHero>
-                <div class="textContainer">
-                    <span class="mediaContainer_img__texte1">Ne Cuisinez Plus Jamais Seul•e Cookease est Là pour Vous</span>
-                    <p class="mediaContainer_img__texte2">
+            <div>
+                <div class="homeHero_textContainer">
+                    <span class="homeHero_textContainer__img__text1">Ne Cuisinez Plus Jamais Seul•e Cookease est Là pour Vous</span>
+                    <p class="homeHero_textContainer__img__text2">
                         Faire connaissance avec Cookease pour une expérience personnalisée
                     </p>
-                    <div class="buttomContainer">
-                        <div class="conversation_container">
+                    <div class="homeHero_textContainer__buttonContainer">
+                        <div class="homeHero_textContainer__buttonContainer__conversationContainer">
                             <!--LIEN BOUTON JSON--><div class="conversation"></div>
                         </div>
-                        <div class="configuration_container">
+                        <div class="homeHero_textContainer__buttonContainer__configurationContainer">
                             <!--LIEN BOUTON JSON--><div class="configuration"></div>
                         </div>
                     </div>
                 </div>
                 <div class="homeHero_img">
-                    <img src="dist/images/homeHero_img.png" alt="" >
+                    <img src="dist/images/homeHero_img.png" alt="femme qui cuisine avec cookease" >
                 </div>
-            </homeHero>
+            </div>
             <!--FIN HOMEHERO-->
-        </main>    
+            <!--SECTION COOKEASE-->
+            <div class="sectionCookease">
+                <div class="sectionCookease__img__text">
+                    <div class="sectionCookease__img">
+                        <img class="sectionCookease__img__img" src="dist/images/sectionCookease_img_img.png" alt="imageCookease">
+                    </div>
+                    <span class="sectionCookease__img__text1">Qu’est-ce que CookEase ?</span>
+                    <p class="sectionCookease__img__text2">
+                        Morem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed.
+                    </p>
+                    <!--LIEN BOUTON JSON--><div class="àPropos"></div>
+                </div>
+            </div>
+            <!--FIN SECTION COOKEASE-->
+            <!--SECTION COMPAGNON DE CUISINE-->
+            <div class="sectionCompagnon">
+                <div class="sectionCompagnon__container">
+                    <div class="sectionCompagnon__container__text">
+                        <span class="sectionCompagnon__container__text1">Votre compagnon de cuisine au quotidien...</span>
+                        <div class="sectionCompagnon__container__text2">
+                            <div class="sectionCompagnon__container__text2__advantage1">
+                                <img class="advantage1" src="dist/images/icôneAvantage.svg" title="X" alt="valider">
+                                <p class="sectionCompagnon__container__text2__advantage1__text">
+                                    Fournir des recettes personnalisées en fonction des préférences alimentaires et des ingrédients disponibles.
+                                </p>
+                            </div>
+                            <div class="sectionCompagnon__container__text2__advantage2">
+                                <img class="advantage2" src="dist/images/icôneAvantage.svg" title="X" alt="valider">
+                                <p class="sectionCompagnon__container__text2__advantage2__text">
+                                    Proposer des conseils pratiques pour une cuisine rapide et efficace.
+                                </p>
+                            </div>
+                            <div class="sectionCompagnon__container__text2__advantage3">
+                                <img class="advantage3" src="dist/images/icôneAvantage.svg" title="X" alt="valider">
+                                <p class="sectionCompagnon__container__text2__advantage3__text">
+                                    Offrir des contenus éducatifs sur la réduction du gaspillage alimentaire et des choix alimentaires durables.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sectionCompagnon__container__tchat">
+                        <div>
+                            <img class="sectionCompagnon__container__tchat1" src="dist/images/sectionCompagnon_container_tchat1.svg" alt="cookease">
+                        </div>
+                        <div class="sectionCompagnon__container__tchat__bubble">
+                            <span class="sectionCompagnon__container__tchat__bubble__text1">Je débute une conversation !</span>
+                            <p class="sectionCompagnon__container__tchat__bubble__text2">
+                            Coucou moi c’est Cookease, de quoi as-tu besoin ?
+                            </p>
+                            <p class="sectionCompagnon__container__tchat__bubble__text3">
+                                Sélectionne la fonctionnalité qui correspond à ta demande
+                            </p>
+                            <div class="sectionCompagnon__container__tchat__bubble__buttons">
+                                <button class="courses"><img class="courses1" src="dist/images/icôneAvantage.svg" title="X" alt="button courses"></button>
+                                <!--<button class="courses">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37" fill="none">
+                                    <path d="M29.2917 1.54175H7.70833C3.45796 1.54175 0 4.99971 0 9.25008V27.7501C0 32.0005 3.45796 35.4584 7.70833 35.4584H29.2917C33.542 35.4584 37 32.0005 37 27.7501V9.25008C37 4.99971 33.542 1.54175 29.2917 1.54175ZM33.9167 27.7501C33.9167 30.3 31.8416 32.3751 29.2917 32.3751H7.70833C5.15842 32.3751 3.08333 30.3 3.08333 27.7501V9.25008C3.08333 6.70016 5.15842 4.62508 7.70833 4.62508H29.2917C31.8416 4.62508 33.9167 6.70016 33.9167 9.25008V27.7501ZM29.2917 10.7917C29.2917 11.6427 28.601 12.3334 27.75 12.3334H16.9583C16.1073 12.3334 15.4167 11.6427 15.4167 10.7917C15.4167 9.94075 16.1073 9.25008 16.9583 9.25008H27.75C28.601 9.25008 29.2917 9.94075 29.2917 10.7917ZM12.3333 10.7917C12.3333 12.0682 11.2973 13.1042 10.0208 13.1042C8.74433 13.1042 7.70833 12.0682 7.70833 10.7917C7.70833 9.51525 8.74433 8.47925 10.0208 8.47925C11.2973 8.47925 12.3333 9.51525 12.3333 10.7917ZM29.2917 18.5001C29.2917 19.3511 28.601 20.0417 27.75 20.0417H16.9583C16.1073 20.0417 15.4167 19.3511 15.4167 18.5001C15.4167 17.6491 16.1073 16.9584 16.9583 16.9584H27.75C28.601 16.9584 29.2917 17.6491 29.2917 18.5001ZM12.3333 18.5001C12.3333 19.7766 11.2973 20.8126 10.0208 20.8126C8.74433 20.8126 7.70833 19.7766 7.70833 18.5001C7.70833 17.2236 8.74433 16.1876 10.0208 16.1876C11.2973 16.1876 12.3333 17.2236 12.3333 18.5001ZM29.2917 26.2084C29.2917 27.0594 28.601 27.7501 27.75 27.7501H16.9583C16.1073 27.7501 15.4167 27.0594 15.4167 26.2084C15.4167 25.3574 16.1073 24.6667 16.9583 24.6667H27.75C28.601 24.6667 29.2917 25.3574 29.2917 26.2084ZM12.3333 26.2084C12.3333 27.4849 11.2973 28.5209 10.0208 28.5209C8.74433 28.5209 7.70833 27.4849 7.70833 26.2084C7.70833 24.9319 8.74433 23.8959 10.0208 23.8959C11.2973 23.8959 12.3333 24.9319 12.3333 26.2084Z" fill="white"/>
+                                    </svg>
+                                </button>-->
+                                <button class="ingrédients"><img class="ingrédients2" src="dist/images/icôneAvantage.svg" title="X" alt="button ingrédients"></button>
+                                <button class="recettes"><img class="recettes3" src="dist/images/icôneAvantage.svg" title="X" alt="button recettes"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--FIN SECTION COMPAGNON DE CUISINE-->
+            <!--SECTION SLIDER CATEGORIES-->
+            <div class="sectionCategories">
+                <div class="sectionCategories__text">
+                    <span class="sectionCategories__text__title">On prépare quoi aujourd’hui ?</span>
+                </div>
+                <div class="sectionCategories__slider">
+                    <div class="sectionCategories__slider__1">
+                        <div class="sectionCategories__img1">
+                            <img class="sectionCategories__img1__hover"src="dist/images/sectionCategories_img1_hover" alt="soup" width="40px" height="40px">
+                        </div>
+                        <div class="sectionCategories__slider__text">
+                            <a href="#" style="text-decoration: none;">ENTRÉES</a>     
+                        </div>
+                    </div>
+                    <div class="sectionCategories__slider__2">
+                        <div class="sectionCategories_img1">
+                            <img class="sectionCategories_img1_hover" src="dist/images/sectionCategories_img1_hover_turkey.svg" alt="turkey" width="40px" height="40px">
+                        </div>
+                        <div class="sectionCategories__slider__texte">
+                            <a href="#" style="text-decoration: none;">PLATS</a>     
+                        </div>
+                    </div>
+                    <div class="sectionCategories__slider__3">
+                        <div class="sectionCategories_img1">
+                            <img class="sectionCategories_img1_hover" src="dist/images/sectionCategories_img1_hover_cheese.svg" alt="cheese" width="40px" height="40px">
+                        </div>
+                        <div class="sectionCategories__slider__texte">
+                            <a href="#" style="text-decoration: none;">DESSERT</a>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--FIN SECTION SLIDER CATEGORIES-->
+            <!--SECTION NOUVEAUTES-->
+            <div class="sectionNews">
+                <div class="sectionNews__text">
+                    <span class="sectionNews__text__title">Les nouveautés</span>
+                </div>
+                <div class="sectionNews__carousel">
+                    <div class="sectionNews__carousel__arrowContainer">
+                        <img class="arrowPrev" src="dist/images/arrowPrev.svg" alt="Précédent">
+                        <img class="arrowNext" src="dist/images/arrowNext.svg" alt="Suivant">
+                    </div>
+                    <div class="sectionNews__carousel__carousel">
+                        <img class="carouselItem" src="dist/images/sectionNews__caroussel__carousselItem_pattes.svg" alt="Image 1">
+                        <img class="carouselItem" src="dist/images/sectionNews__caroussel__carousselItem_poisson.svg" alt="Image 2">
+                        <img class="carouselItem" src="dist/images/sectionNews__caroussel__carousselItem_kefta.svg" alt="Image 3">
+                        <img class="carouselItem" src="dist/images/sectionNews__caroussel__carousselItem_poisson.svg" alt="Image 4">
+                    </div>
+                </div>
+                <div class="sectionNews__paginationContainer"></div>
+            </div>
+            <!--FIN SECTION NOUVEAUTES-->
+        </main>
+        <script src="dist/scripts/carousel.js"></script> 
     </body>
 </html>
