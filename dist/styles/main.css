@@ -14,3 +14,16 @@ body {
 }
 
 /*_____PAGE RECETTE_____*//*# sourceMappingURL=main.css.map */
+
+/*___COOKEASE 7 LISTE INGREDIENTS___*/
+
+.seventhExchange_cookease__left__text_listIngredients {
+  list-style-type: disc; /* Pour les puces */
+  padding-left: 20px; /* Pour indenter la liste */
+}
+
+.seventhExchange_cookease__left__text_listIngredients li {
+  margin-bottom: 5px; /* Pour espacer les éléments de la liste */
+}
+
+/*_________*/
