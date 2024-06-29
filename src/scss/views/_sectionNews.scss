@@ -4,5 +4,58 @@
     margin-left: 9.0px;
     margin-top: 35px;
     min-width: 1337px;
+    width: 960px;
+    overflow: hidden;
+    /*position: relative;*/
 }
 
+.sectionRecipe__carousel__carousel {
+    display: flex;
+    width: 960px;
+}
+
+.carouselItem {
+    z-index: 1;
+    min-width: 100%;
+    height: 450px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionNews__carousel__arrowContainer{
+    width: 960px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrowPrev, .arrowNext {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.sectionRecipe__paginationContainer{
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(57, 55, 55);
+  border-radius: 30px;
+  margin-top: 20px;
+  padding-top:10px;
+  margin-left: 450px;
+}
+
+.pagination{
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.pagination.active {
+  background-color: #000000;
+}

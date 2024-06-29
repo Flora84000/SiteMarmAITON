@@ -1,0 +1,36 @@
+.sectionReviews__carousel {
+  width: 960px;
+  position: relative;
+  overflow: hidden;
+}
+
+.sectionReviews__carousel__arrowContainer{
+  width: 960px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionRecipe__paginationContainer{
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(57, 55, 55);
+  border-radius: 30px;
+  margin-top: 20px;
+  padding-top:10px;
+  margin-left: 450px;
+}
+
+.pagination{
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.pagination.active {
+  background-color: #000000;
+}
