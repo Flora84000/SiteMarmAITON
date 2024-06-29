@@ -1,0 +1,32 @@
+.footer{
+    height: 358px;
+    margin-top: 115px;
+    width: 1728px;
+}
+
+.footer__leftContainer__img{
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    min-width: 281px;
+    transform: rotate(-180deg);
+    height: 65px;
+}
+
+.footer__rightContainer__bottom{
+    align-items: flex-start;
+    display: flex;
+    gap: 150px;
+    margin-left: 1.03px;
+    min-width: 771px;
+}
+
+.title_list{
+    letter-spacing: 0;
+    line-height: 24px;
+    font-size: $font-size-m;
+    font-family: $secondFontFamily;
+    margin-top: -1.11px;
+    white-space: nowrap;
+    width: fit-content;
+}

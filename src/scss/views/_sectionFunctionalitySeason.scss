@@ -1,0 +1,61 @@
+.sectionFunctionalitySeason__container{
+    align-items: flex-start;
+    background-color: $primaryColor;
+    border: 2px solid;
+    border-color: $accentColor;
+    border-radius: 42px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    left: 0;
+    min-height: 663px;
+    padding: 104px 111px;
+    position: absolute;
+    top: 0;
+    width: 1304px;
+}
+
+.sectionFunctionalitySeason__container__left{
+    align-items: flex-start;
+    align-self: flex-end;
+    gap: 55px;
+    min-height: 380px;
+    width: 641px;
+}
+
+.sectionFunctionalitySeason__container__left__text__buttons .info{
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 51px;
+    justify-content: center;
+    position: relative;
+    transform: rotate(180deg);
+}
+
+.sectionFunctionalitySeason__container__right{
+    align-items: center;
+    min-height: 360px;
+    width: 377px;
+}
+
+.sectionFunctionalitySeason__container__right__carousel__carousel{
+    height: 224px;
+    margin-right: 2.25px;
+    width: 221px;
+}
+
+.arrowNext{
+    align-items: flex-start;
+    display: flex;
+    width: 20px;
+    transform: rotate(180deg); // + object-fit: cover;
+}
+
+.arrowPrev{
+    align-items: flex-start;
+    display: flex;
+    width: 20px;
+    transform: rotate(-180deg); // + object-fit: cover;
+}
+

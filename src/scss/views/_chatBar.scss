@@ -1,0 +1,23 @@
+.chatBar__button{
+    align-items: flex-start; //pas sûr
+    align-items: center;
+    border: 2px solid;
+    border-color: var($accentColor);
+    border-radius: 42px;
+    display: inline-flex; // + align-self: flex-end;
+    position: fixed;
+    gap: 24px;
+    height: 48px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 9px 24px;
+    color: var($accentColor);
+    font-family: var($font-family-fredoka);
+    font-size: var($font-size-m);
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+

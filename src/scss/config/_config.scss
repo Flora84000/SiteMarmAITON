@@ -8,11 +8,29 @@ $fifthColor: #E2F8F2;
 $sixthColor: #FFFEFA;
 $accentColor: #1C551B;
 $typoColor: #000000;
+$typoColorWhite: #ffffff;
 $typoOptionColor: #737373;
 $typofond:rgb(162, 162, 162);
 $fontPrincipalFamily: 'Fredoka', sans-serif;
 $secondFontFamily: "Work Sans", sans-serif;
 $thirdFontFamily: 'Varuna', sans-serif;
+$font-size-32px: 32px; //tabletH2, mobileH1
+$font-size-77px: 77px; //H1
+$font-size-64px: 64px; //tabletH1
+$font-size-12px: 12px; //mobileSous-paragraph
+$font-size-l: 25px; //H4
+$font-size-m: 20px; //paragraph, tabletH3, mobileH2, H5
+$font-size-s: 18px; //mobileH3, mobileH4, tabletH4
+$font-size-xl: 33px; //H3
+$font-size-xs: 16px; //tabletParagraph, tabletH5, sousParagraph
+$font-size-xxl: 48px; //H2
+$font-size-xxs: 14px; //mobileParagraph, tabletSous-paragraph
+
+$font-family-dm_sans-regular: 'DM Sans-Regular', Helvetica;
+$font-family-fredoka: "Fredoka", Helvetica;
+$font-family-fredoka-medium: 'Fredoka-Medium', Helvetica;
+$font-family-varuna-regular: 'VARUNA-Regular', Helvetica;
+$font-family-work_sans: "Work Sans", Helvetica;
 
 body {
     margin: auto ;

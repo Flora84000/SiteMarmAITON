@@ -1,0 +1,49 @@
+.homeHero_textContainer__img__text1{
+    color: $typoColor;
+}
+
+.conversation{
+    align-items: center;
+    background-color: var($accentColor);
+    border-radius: 42px 42px 42px 0px;
+    cursor: pointer;
+    display: inline-flex;
+    gap: 10px;
+    height: 72px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 9px 26px 9px 24px;
+    position: relative;
+    transform: rotate(180deg);
+    color: var($typoColorWhite);
+    font-family: var($font-family-fredoka); //semibold à rajouter
+    font-size: var($font-size-m);
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.configuration{
+    align-items: center;
+    border: 2px solid;
+    border-color: var($accentColor);
+    border-radius: 42px 42px 42px 0px;
+    display: inline-flex;
+    gap: 10px;
+    height: 72px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 9px 26px 9px 24px;
+    position: relative;
+    color: var($accentColor);
+    font-family: var($font-family-fredoka); //semibold à rajouter
+    font-size: var($font-size-m);
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+    
+}
