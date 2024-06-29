@@ -1,13 +1,42 @@
+.firstExchange_user{
+    display:block;
+}
+
+.firstExchange_user__left{
+    background-color: $typoColorWhite;
+    width: 874px;
+    display:flex;
+}
+
+.firstExchange_user__right{
+    width: 854px;
+    background-color: $primaryColor;
+}
+
 .firstExchange_user__left__bubbleContainer{
-    align-items: center;
-    align-self: flex-end;
-    background-color: var($typoColor);
-    border-radius: 42px 42px 42px 0px;
     display: inline-flex;
+    padding: 20px 26px 20px 24px;
+    justify-content: flex-end;
+    align-items: center;
     gap: 10px;
+    border-radius: 42px 42px 42px 0px;
+    background: $typoColor;
+}
+
+/*
+.firstExchange_user__left__bubbleContainer{
+    align-self: flex-end;
     justify-content: center;
     overflow: hidden;
-    padding: 20px 26px 20px 24px;
-    position: relative;
-    transform: rotate(180deg);
+}
+*/
+
+.firstExchange_user__left__bubbleContainer__text{
+    color: $typoColorWhite;
+    font-family: $secondFontFamily;
+    font-size: $font-size-m;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    justify-content: center;
 }

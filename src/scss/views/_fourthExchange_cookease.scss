@@ -1,19 +1,148 @@
-.fourthExchange_cookease__left__functionalityContainer .imgImport__button{
-    align-items: center;
-    align-self: flex-start;
-    background-color: var($accentColor);
-    border-radius: 42px 42px 42px 0px;
-    display: inline-flex;
-    gap: 10px;
-    height: 72px;
+.fourthExchange_cookease{
+    display:block;
+}
+
+.fourthExchange_cookease__left{
+    background-color: $typoColorWhite;
+    width: 874px;
+    display:flex;
+}
+
+.fourthExchange_cookease__left__functionalityContainer{
+    width: 510px;
+    height: 329px;
+    flex-shrink: 0;
     justify-content: center;
-    margin-top: 9px;
-    overflow: hidden;
+    border-radius: 42px;
+    border: 2px solid $accentColor;
+    background: $typoColorWhite;
+    display:flex;
+}
+
+.fourthExchange_cookease__left__functionalityContainer__imgImport{
+    width: 254px;
+    height: 156px;
+    flex-shrink: 0;
+    justify-content: center;
+    gap: 35;
+    display: flex;
+}
+
+.imgImport__button{
+    display: inline-flex;
+    height: 72px;
     padding: 9px 26px 9px 24px;
-    color: var($typoColorWhite);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: $fontPrincipalFamily;
+    font-size: 20px;
+    font-style: normal;
     font-weight: 600;
     line-height: normal;
-    text-align: center;
-    white-space: nowrap;
-    width: fit-content;
+    align-self: flex-start; //pas sûr
+    background-color: $accentColor;
+    border-radius: 42px 42px 42px 0px;
+    color: $typoColorWhite;
 }
+
+.fourthExchange_cookease__left__functionalityContainer__imgImport__text{
+    justify-content: center;
+    width: 244px;
+    height: 49px;
+    flex-shrink: 0;
+}
+
+.imgImport__link{
+    width: 244px;
+    height: 26px;
+    flex-shrink: 0;
+    color: $typoColor;
+    text-align: center;
+    font-family: $fontPrincipalFamily;
+    font-size: $font-size-m;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.imgImport__text{
+    width: 244px;
+    height: 23px;
+    flex-shrink: 0;
+    color: $typoColor;
+    text-align: center;
+    /* Sous-paragraphe */
+    font-family: "Work Sans";
+    font-size: $font-size-xs;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.fourthExchange_cookease__right{
+    width: 854px;
+    background-color: $primaryColor;
+    display:flex;
+}
+
+.fourthExchange_cookease__right__topGalery{
+    width: 510px;
+    height: 278.674px;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+.fourthExchange_cookease__right__topGalery__container{
+    width: 510px;
+    height: 278.674px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+.topGalery__img{
+    overflow: auto;
+}
+
+.fourthExchange_cookease__right__bottomGalery{
+    width: 510px;
+    height: 152.865px;
+    flex-shrink: 0;
+    justify-content: center;
+    gap: 27.06px;
+    display: block;
+}
+
+.fourthExchange_cookease__right__bottomGalery__container{
+    width: 151.512px;
+    height: 151.512px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+.bottomGalery__img{
+    overflow: auto;
+}
+
+.bottomGalery__button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: $accentColor;
+    border: $accentColor;
+    text-align: center;
+    /* Paragraphe */
+    font-family: $secondFontFamily;
+    font-size: $font-size-m;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+}
+
+
+
+
+

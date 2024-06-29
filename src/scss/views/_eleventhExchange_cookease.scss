@@ -1,0 +1,63 @@
+.eleventhExchange_cookease{
+    display:block;
+}
+
+.eleventhExchange_cookease__left{
+    background-color: $typoColorWhite;
+    width: 874px;
+    display:flex;
+}
+
+.eleventhExchange_cookease__left__textContainer{
+    width: 642px;
+}
+
+.eleventhExchange_cookease__left__textContainer__text{
+    color: $typoColor;
+    /* H3 */
+    font-family: $primaryColor;
+    font-size: $font-size-xl;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.eleventhExchange_cookease__right{
+    width: 854px;
+    background-color: $primaryColor;
+}
+
+.eleventhExchange_cookease__right__container{
+    width: 642.158px;
+    height: 723.422px;
+    flex-shrink: 0;
+    display:flex;
+    justify-content: center;
+    display: inline;
+    gap: 31.26px;
+}
+
+.eleventhExchange_cookease__right__container__topContainer{
+    width: 642.158px;
+    height: 371.739px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 64.08px;
+}
+
+.topContainer__sideDishItem{
+    overflow: auto;
+}
+
+.eleventhExchange_cookease__right__container__bottomContainer{
+    width: 248.311px;
+    height: 320.421px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.bottomContainer__sideDishItem{
+    overflow: auto;
+}

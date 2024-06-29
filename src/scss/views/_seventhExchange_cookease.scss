@@ -1,0 +1,79 @@
+.seventhExchange_cookease{
+    display:block;
+}
+
+.seventhExchange_cookease__left{
+    background-color: $typoColorWhite;
+    width: 874px;
+    display:flex;
+    display: inline;
+
+}
+
+.seventhExchange_cookease__left__text{
+    width: 642px;
+    display: inline;
+}
+
+.seventhExchange_cookease__left__text__text, .ingredient{
+    color: $typoColor;
+    /* H3 */
+    font-family: $fontPrincipalFamily;
+    font-size: $font-size-xl;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.seventhExchange_cookease__left__text__listIngredients{
+    display: inline;
+}
+
+.seventhExchange_cookease__left__functionalityContainer{
+    width: 765px;
+    height: 35px;
+    flex-shrink: 0;
+    display: block;
+    display: flex;
+    justify-content: space-between; //ajouter le gap ?
+}
+
+.seventhExchange_cookease__left__functionalityContainer__button{
+    justify-content: flex-start;
+}
+
+.showMore{
+    width: 134px;
+    height: 26px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 11px;
+}
+
+.moreIcon{
+    width: 11px;
+    height: 11px;
+    flex-shrink: 0;
+}
+
+.info1{
+    color: $typoColor;
+    font-family: $fontPrincipalFamily;
+    font-size: $font-size-m;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25.6px; /* 128% */
+    letter-spacing: -0.4px;
+}
+
+.seventhExchange_cookease__left__functionalityContainer__img{
+    width: 23px;
+    height: 23px;
+    flex-shrink: 0;
+}
+
+.seventhExchange_cookease__right{
+    width: 854px;
+    background-color: $primaryColor;
+}

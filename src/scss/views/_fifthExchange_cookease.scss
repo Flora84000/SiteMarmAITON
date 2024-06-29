@@ -1,0 +1,28 @@
+.fifthExchange_cookease{
+    display:block;
+}
+
+.fifthExchange_cookease__left{
+    background-color: $typoColorWhite;
+    width: 874px;
+    display:flex;
+    display: inline;
+    gap: 13px;
+}
+
+.fifthExchange_cookease__left__text{
+    color: $typoColor;
+    /* H3 */
+    font-family: $fontPrincipalFamily;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 642px;
+    justify-content: flex-start;
+}
+
+.thirdExchange_cookease__right{
+    width: 854px;
+    background-color: $primaryColor;
+}

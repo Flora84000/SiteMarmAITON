@@ -1,23 +1,70 @@
+main {
+    display: flex;
+}
+
+.chatBar{
+    justify-content: flex-start;
+    position: fixed;
+    width: 774px;
+    height: 180px;
+    flex-shrink: 0;
+    display: inline;
+    display: flex;
+}
+
+.chatBar__top{
+    width: 454px;
+    height: 49px;
+    flex-shrink: 0;
+    gap: 9px;
+    justify-content: flex-start;
+}
+
+.chatBar__middle{
+    height: 49px;
+    flex-shrink: 0;
+    justify-content: flex-start;
+}
+
+.chatBar__bottom{
+    width: 774px;
+    height: 63px;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
 .chatBar__button{
-    align-items: flex-start; //pas sûr
+    align-items: flex-start;
+    display: inline-flex;
+    display: flex;
     align-items: center;
     border: 2px solid;
-    border-color: var($accentColor);
+    border-color: $accentColor;
     border-radius: 42px;
-    display: inline-flex; // + align-self: flex-end;
-    position: fixed;
+    display: inline-flex;
     gap: 24px;
     height: 48px;
     justify-content: center;
-    overflow: hidden;
     padding: 9px 24px;
-    color: var($accentColor);
-    font-family: var($font-family-fredoka);
-    font-size: var($font-size-m);
+    color: $accentColor;
+    font-family: $fontPrincipalFamily;
+    font-size: $font-size-m;
     font-weight: 600;
     line-height: normal;
     text-align: center;
-    white-space: nowrap;
-    width: fit-content;
 }
 
+.firstExchange_user{
+    display:block;
+}
+
+.firstExchange_user__left{
+    background-color: $typoColorWhite;
+    width: 874px;
+    display:flex;
+}
+
+.firstExchange_user__right{
+    width: 854px;
+    background-color: $primaryColor;
+}

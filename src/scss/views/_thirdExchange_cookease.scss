@@ -1,0 +1,41 @@
+.thirdExchange_cookease{
+    display:block;
+}
+
+.thirdExchange_cookease__left{
+    background-color: $typoColorWhite;
+    width: 874px;
+    display:flex;
+    display: inline;
+    gap: 13px;
+}
+
+.thirdExchange_cookease__left__img{
+    width: 55px;
+    height: 55px;
+    flex-shrink: 0;
+    justify-content: flex-start;
+}
+
+.vocalIcon{
+    overflow: auto;
+}
+
+.thirdExchange_cookease__left__textContainer{
+    width: 642px;
+}
+
+.thirdExchange_cookease__left__textContainer__text{
+    color: $typoColor;
+    /* H3 */
+    font-family: $fontPrincipalFamily;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.thirdExchange_cookease__right{
+    width: 854px;
+    background-color: $primaryColor;
+}

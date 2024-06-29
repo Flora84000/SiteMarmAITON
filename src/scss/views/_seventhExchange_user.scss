@@ -1,0 +1,42 @@
+.seventhExchange_user{
+    display:block;
+}
+
+.seventhExchange_user__left{
+    background-color: $typoColorWhite;
+    width: 874px;
+    display:flex;
+}
+
+.seventhExchange_user__right{
+    width: 854px;
+    background-color: $primaryColor;
+}
+
+.seventhExchange_user__left__bubbleContainer{
+    display: inline-flex;
+    padding: 20px 26px 20px 24px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    border-radius: 42px 42px 42px 0px;
+    background: $typoColor;
+}
+
+/*
+.seventhExchange_user__left__bubbleContainer{
+    align-self: flex-end;
+    justify-content: center;
+    overflow: hidden;
+}
+*/
+
+.seventhExchange_user__left__bubbleContainer__text{
+    color: $typoColorWhite;
+    font-family: $secondFontFamily;
+    font-size: $font-size-m;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    justify-content: center;
+}

@@ -1,0 +1,38 @@
+.ninthExchange_cookease{
+    display:block;
+}
+
+.ninthExchange_cookease__left{
+    background-color: $typoColorWhite;
+    width: 874px;
+    display:flex;
+    display: inline;
+}
+
+.ninthExchange_cookease__left__text{
+    width: 642px;
+    color: $typoColor;
+    /* H3 */
+    font-family: $primaryColor;
+    font-size: $font-size-xl;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ninthExchange_cookease__right{
+    width: 854px;
+    background-color: $primaryColor;
+}
+
+.ninthExchange_cookease__right__alarmApple_Container{
+    display:flex;
+    justify-content: center;
+    width: 551px;
+    height: 231px;
+    flex-shrink: 0;
+}
+
+.alarmApple_Container__img{
+    justify-content: center;
+}

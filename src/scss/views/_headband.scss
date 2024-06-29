@@ -1,0 +1,38 @@
+.headband{
+    display:block;
+}
+
+.headband__left{
+    background-color: $typoColorWhite;
+    width: 874px;
+}
+
+.headband__right{
+    display:flex;
+    width: 854px;
+    background-color: $primaryColor;
+}
+
+.headband__right__icons{
+    width: 112px;
+    height: 54px;
+    flex-shrink: 0;
+    display:flex;
+    justify-content: flex-end;
+    gap:35px;
+
+}
+
+.icon_1{
+    width: 23px;
+    height: 23px;
+    flex-shrink: 0;
+    overflow: auto;
+}
+
+.icon_2{
+    width: 854px;
+    height: 6952px;
+    flex-shrink: 0;
+    overflow: auto;
+}

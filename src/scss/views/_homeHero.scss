@@ -4,7 +4,7 @@
 
 .conversation{
     align-items: center;
-    background-color: var($accentColor);
+    background-color: $accentColor;
     border-radius: 42px 42px 42px 0px;
     cursor: pointer;
     display: inline-flex;
@@ -15,9 +15,9 @@
     padding: 9px 26px 9px 24px;
     position: relative;
     transform: rotate(180deg);
-    color: var($typoColorWhite);
-    font-family: var($font-family-fredoka); //semibold à rajouter
-    font-size: var($font-size-m);
+    color: $typoColorWhite;
+    font-family: $fontPrincipalFamily; //semibold à rajouter
+    font-size: $font-size-m;
     font-weight: 600;
     line-height: normal;
     text-align: center;
@@ -28,7 +28,7 @@
 .configuration{
     align-items: center;
     border: 2px solid;
-    border-color: var($accentColor);
+    border-color: $accentColor;
     border-radius: 42px 42px 42px 0px;
     display: inline-flex;
     gap: 10px;
@@ -37,9 +37,9 @@
     overflow: hidden;
     padding: 9px 26px 9px 24px;
     position: relative;
-    color: var($accentColor);
-    font-family: var($font-family-fredoka); //semibold à rajouter
-    font-size: var($font-size-m);
+    color: $accentColor;
+    font-family: $fontPrincipalFamily; //semibold à rajouter
+    font-size: $font-size-m;
     font-weight: 600;
     line-height: normal;
     text-align: center;

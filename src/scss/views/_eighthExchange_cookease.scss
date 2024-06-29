@@ -1,0 +1,66 @@
+.eighthExchange_cookease{
+    display:block;
+}
+
+.eighthExchange_cookease__left{
+    background-color: $typoColorWhite;
+    width: 874px;
+    display:flex;
+    display: inline;
+}
+
+.eighthExchange_cookease__left__text{
+    width: 642px;
+}
+
+.eighthExchange_cookease__left__text__text{
+    color: $typoColor;
+    /* H3 */
+    font-family: $fontPrincipalFamily;
+    font-size: $font-size-xl;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.eighthExchange_cookease__left__functionalityContainer{
+    width: 765px;
+    height: 35px;
+    flex-shrink: 0;
+    display: block;
+    display: flex;
+    justify-content: space-between; //ajouter le gap ?
+}
+
+.eighthExchange_cookease__left__functionalityContainer__img{
+    width: 55px;
+    height: 55px;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.saveIcon{
+    width: 23px;
+    height: 23px;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+.eighthExchange_cookease__left__text__2{
+    width: 642px;
+}
+
+.eighthExchange_cookease__left__text__2__text{
+    color: $typoColor;
+    /* H3 */
+    font-family: $fontPrincipalFamily;
+    font-size: $font-size-xl;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.eighthExchange_cookease__right{
+    width: 854px;
+    background-color: $primaryColor;
+}
