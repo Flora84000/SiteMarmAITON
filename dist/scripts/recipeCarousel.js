@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const arrowNext = document.querySelector('.arrowNext');
     const arrowPrev = document.querySelector('.arrowPrev');
     const pagination = document.querySelector('.sectionRecipe__paginationContainer');
+    const paginationDots = [] 
     let currentIndex = 0;
 
 /*___movedirection_____*/
@@ -57,15 +58,16 @@ function createPagination() {
         button.addEventListener('click', function(){
             button.classList.toggle('active')
         })
+        paginationDots.push(button)
     }
 }
 
 function updatePagination() {
-    pagination.forEach((pagination, index) => {
+    paginationDots.forEach((item, index) => {
         if (index === currentIndex) {
-            pagination.classList.add('active');
+            item.classList.add('active');
         } else {
-            pagination.classList.remove('active');
+            item.classList.remove('active');
         }
     });
 }

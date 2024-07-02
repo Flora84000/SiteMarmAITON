@@ -1,21 +1,22 @@
 .sectionCookease{
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
 }
 
 .sectionCookease__img__text{
     width: 774px;
     height: 428px;
     flex-shrink: 0;
-    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
     gap: 20px;
 }
 
 .sectionCookease__img{
     height: 117.133px;
-    margin-right: 6.0px;
     margin-top: 113px;
     width: 132px;
+    align-items: center;
+    display: flex;
 }
 
 .sectionCookease__img__title{

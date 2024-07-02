@@ -17,11 +17,9 @@ body {
 
 .header {
   flex-direction: row;
-  align-items: center;
   width: 1728px;
   height: 89px;
   flex-shrink: 0;
-  display: block;
   gap: 574px;
   display: flex;
   justify-content: space-between;
@@ -31,7 +29,9 @@ body {
   width: 577px;
   height: 43.881px;
   flex-shrink: 0;
-  display: block;
+  display: flex;
+  gap: 75.96px;
+  align-items: center;
 }
 
 .header__leftContainer__img {
@@ -44,7 +44,26 @@ body {
   width: 313px;
   height: 24.273px;
   flex-shrink: 0;
-  gap: 50px;
+  display: flex;
+}
+
+.header__leftContainer__leftLinks ul {
+  list-style-type: none; /* Retire les puces */
+  padding: 0; /* Retire le padding par défaut */
+  margin: 0; /* Retire la marge par défaut */
+  display: flex; /* Place les éléments en ligne */
+}
+
+.header__leftContainer__leftLinks li {
+  margin-right: 50px; /* Espacement entre les éléments */
+}
+
+.header__leftContainer__leftLinks a {
+  text-decoration: none; /* Retire le soulignage des liens */
+}
+
+.header__leftContainer__leftLinks a:hover {
+  color: #1C551B; /* Change la couleur des liens au survol, optionnel */
 }
 
 .header__rightContainer {
@@ -52,7 +71,49 @@ body {
   height: 72.818px;
   flex-shrink: 0;
   gap: 24px;
-  display: block;
+  display: flex;
+  align-items: center;
+}
+
+.signUp {
+  display: flex;
+  width: 262px;
+  height: 72.818px;
+  padding: 9px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 42px 42px 42px 0px;
+  background: #000000;
+  color: var(--Blanc, #FFF);
+  text-align: center;
+  /* Paragraphe */
+  font-family: "Work Sans", Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 120% */
+  cursor: pointer;
+}
+
+.header__rightContainer__rightLinks ul {
+  list-style-type: none; /* Retire les puces */
+  padding: 0; /* Retire le padding par défaut */
+  margin: 0; /* Retire la marge par défaut */
+  display: flex; /* Place les éléments en ligne */
+}
+
+.header__rightContainer__rightLinks li {
+  margin-right: 50px; /* Espacement entre les éléments */
+}
+
+.header__rightContainer__rightLinks a {
+  text-decoration: none; /* Retire le soulignage des liens */
+}
+
+.header__rightContainer__rightLinks a:hover {
+  color: #1C551B; /* Change la couleur des liens au survol, optionnel */
 }
 
 .link_1, .link_2, .link_3 {
@@ -67,13 +128,6 @@ body {
   flex-shrink: 0;
 }
 
-.link_4 {
-  height: 73px;
-  margin-left: 24px;
-  position: relative;
-  width: 262px;
-}
-
 .hr {
   height: 4px;
   background-color: #FFFEFA;
@@ -83,6 +137,7 @@ body {
 .homeHero {
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 .homeHero_textContainer {
@@ -137,6 +192,11 @@ body {
   gap: 8px;
 }
 
+.homeHero_textContainer__buttonContainer__conversationContainer {
+  display: inline-block;
+  white-space: nowrap;
+}
+
 .conversation {
   display: inline-flex;
   height: 72px;
@@ -152,9 +212,8 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  /*cursor: pointer;
-  white-space: nowrap;
-  width: fit-content;*/
+  cursor: pointer;
+  /*width: fit-content;*/
   color: #ffffff;
   font-family: "Fredoka", Helvetica;
   font-size: 20px;
@@ -179,6 +238,17 @@ body {
   color: #1C551B;
   font-family: "Fredoka", Helvetica;
   font-size: 20px;
+  background: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.conversation:hover {
+  /* Ajoute des styles pour le survol si nécessaire */
+  color: #1C551B; /* Change la couleur du texte au survol */
+  text-decoration: none;
+  border: 2px solid #1C551B;
+  background: none;
 }
 
 .homeHero_img {
@@ -186,27 +256,34 @@ body {
   height: 530px;
   flex-shrink: 0;
   border-radius: 42px;
-  overflow: auto;
+  overflow: hidden;
+}
+
+.homeHero_img img {
+  max-width: 100%; /* L'image ne dépasse pas la largeur du conteneur */
+  height: auto; /* Hauteur automatique pour maintenir les proportions */
+  display: block; /* Retire l'espace en dessous des images */
 }
 
 .sectionCookease {
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
 }
 
 .sectionCookease__img__text {
   width: 774px;
   height: 428px;
   flex-shrink: 0;
-  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
   gap: 20px;
 }
 
 .sectionCookease__img {
   height: 117.133px;
-  margin-right: 6px;
   margin-top: 113px;
   width: 132px;
+  align-items: center;
+  display: flex;
 }
 
 .sectionCookease__img__title {
@@ -534,11 +611,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2px;
-  left: 0;
   min-height: 663px;
   padding: 104px 111px;
-  position: absolute;
-  top: 0;
   width: 1304px;
 }
 
@@ -556,8 +630,6 @@ body {
   flex: 0 0 auto;
   gap: 51px;
   justify-content: center;
-  position: relative;
-  transform: rotate(180deg);
 }
 
 .sectionFunctionalitySeason__container__right {
@@ -576,14 +648,12 @@ body {
   align-items: flex-start;
   display: flex;
   width: 20px;
-  transform: rotate(180deg);
 }
 
 .arrowPrev {
   align-items: flex-start;
   display: flex;
   width: 20px;
-  transform: rotate(-180deg);
 }
 
 .sectionSeason, .sectionSeason__carousel {

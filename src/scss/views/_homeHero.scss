@@ -1,6 +1,7 @@
 .homeHero{
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .homeHero_textContainer{
@@ -55,6 +56,11 @@
     gap: 8px;
 }
 
+.homeHero_textContainer__buttonContainer__conversationContainer{
+    display: inline-block;
+    white-space: nowrap;
+}
+
 .conversation{
     display: inline-flex;
     height: 72px;
@@ -70,9 +76,8 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    /*cursor: pointer;
-    white-space: nowrap;
-    width: fit-content;*/
+    cursor: pointer;
+    /*width: fit-content;*/
     color: $typoColorWhite;
     font-family: $fontPrincipalFamily;
     font-size: $font-size-m;
@@ -97,6 +102,17 @@
     color: $accentColor;
     font-family: $fontPrincipalFamily;
     font-size: $font-size-m;
+    background: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.conversation:hover {
+    /* Ajoute des styles pour le survol si nécessaire */
+    color: $accentColor; /* Change la couleur du texte au survol */
+    text-decoration: none;
+    border: 2px solid $accentColor;
+    background: none;
 }
 
 .homeHero_img{
@@ -104,5 +120,11 @@
     height: 530px;
     flex-shrink: 0;
     border-radius: 42px;
-    overflow: auto;
+    overflow: hidden;
+}
+
+.homeHero_img img{
+    max-width: 100%; /* L'image ne dépasse pas la largeur du conteneur */
+    height: auto; /* Hauteur automatique pour maintenir les proportions */
+    display: block; /* Retire l'espace en dessous des images */
 }
