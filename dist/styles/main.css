@@ -275,7 +275,6 @@ body {
   flex-shrink: 0;
   align-items: center;
   display: flex;
-  display: block;
   /*margin-left: 2.06px;
   margin-top: 60px;
   min-width: 1304px;*/
@@ -291,7 +290,8 @@ body {
   gap: 56px;
   margin-top: 97px;
   min-height: 392px;
-  display: inline;
+  /*display: flex;
+  flex-direction: column;*/
 }
 
 .sectionCompagnon__container__title {
@@ -594,7 +594,6 @@ body {
   min-width: 1324px;
   width: 960px;
   /*position: relative;*/
-  overflow: hidden;
 }
 
 .sectionNews__carousel__arrowContainer {
@@ -634,13 +633,11 @@ body {
   display: flex;
   height: 1026px;
   margin-top: 76px;
-  min-width: 1728px;
   padding: 68px 80px;
 }
 
 .sectionArticles__carousel {
   width: 960px;
-  position: relative;
   overflow: hidden;
 }
 
