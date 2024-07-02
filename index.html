@@ -48,18 +48,21 @@
         <!--HEADER FIN-->
         <main>
             <!--HOMEHERO-->
-            <div>
+            <div class="homeHero">
                 <div class="homeHero_textContainer">
-                    <span class="homeHero_textContainer__img__text1">Ne cuisine plus jamais seul•e Cookease est là pour toi</span>
-                    <p class="homeHero_textContainer__img__text2">
+                    <div class="homeHero_textContainer__img__title">
+                        <span class="sloganTop">Ne cuisine plus jamais seul•e</span>
+                        <span class="sloganBottom">Cookease est là pour toi</span>
+                    </div>
+                    <p class="homeHero_textContainer__img__text">
                         Fais connaissance avec Cookease pour une expérience personnalisée
                     </p>
                     <div class="homeHero_textContainer__buttonContainer">
                         <div class="homeHero_textContainer__buttonContainer__conversationContainer">
-                            <!--LIEN BOUTON JSON--><div class="conversation"></div>
+                            <button class="conversation">Je lance une conversation</button>
                         </div>
                         <div class="homeHero_textContainer__buttonContainer__configurationContainer">
-                            <!--LIEN BOUTON JSON--><div class="configuration"></div>
+                            <button class="configuration">Je configure cookease</button>
                         </div>
                     </div>
                 </div>
@@ -74,11 +77,13 @@
                     <div class="sectionCookease__img">
                         <img class="sectionCookease__img__img" src="dist/images/sectionCookease_img_img.png" alt="imageCookease">
                     </div>
-                    <span class="sectionCookease__img__text1">Qu’est-ce que CookEase ?</span>
-                    <p class="sectionCookease__img__text2">
+                    <span class="sectionCookease__img__title">Qu’est-ce que CookEase ?</span>
+                    <p class="sectionCookease__img__text">
                         Morem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed.
                     </p>
-                    <!--LIEN BOUTON JSON--><div class="aPropos"></div>
+                    <div class="sectionCookease__button">
+                        <button class="sectionCookease__button__button">À propos</button>
+                    </div>
                 </div>
             </div>
             <!--FIN SECTION COOKEASE-->
@@ -86,38 +91,40 @@
             <div class="sectionCompagnon">
                 <div class="sectionCompagnon__container">
                     <div class="sectionCompagnon__container__text">
-                        <span class="sectionCompagnon__container__text1">Ton compagnon de cuisine au quotidien...</span>
-                        <div class="sectionCompagnon__container__text2">
-                            <div class="sectionCompagnon__container__text2__advantage1">
-                                <img class="advantage1" src="dist/images/icôneAvantage.svg" title="X" alt="valider">
-                                <p class="sectionCompagnon__container__text2__advantage1__text">
+                        <span class="sectionCompagnon__container__title">Ton compagnon de cuisine au quotidien...</span>
+                        <div class="sectionCompagnon__container__text__text">
+                            <div class="sectionCompagnon__container__text__text__advantage1">
+                                <img class="advantageIcon" src="dist/images/icôneAvantage.svg" title="X" alt="valider">
+                                <p class="advantage__text">
                                     Fournit des recettes personnalisées en fonction des préférences alimentaires et des ingrédients disponibles.
                                 </p>
                             </div>
-                            <div class="sectionCompagnon__container__text2__advantage2">
-                                <img class="advantage2" src="dist/images/icôneAvantage.svg" title="X" alt="valider">
-                                <p class="sectionCompagnon__container__text2__advantage2__text">
+                            <div class="sectionCompagnon__container__text__text__advantage2">
+                                <img class="advantageIcon" src="dist/images/icôneAvantage.svg" title="X" alt="valider">
+                                <p class="advantage__text">
                                     Propose des conseils pratiques pour une cuisine rapide et efficace.
                                 </p>
                             </div>
-                            <div class="sectionCompagnon__container__text2__advantage3">
-                                <img class="advantage3" src="dist/images/icôneAvantage.svg" title="X" alt="valider">
-                                <p class="sectionCompagnon__container__text2__advantage3__text">
+                            <div class="sectionCompagnon__container__text__text__advantage3">
+                                <img class="advantageIcon" src="dist/images/icôneAvantage.svg" title="X" alt="valider">
+                                <p class="advantage__text">
                                     Offre des contenus éducatifs sur la réduction du gaspillage alimentaire et des choix alimentaires durables.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="sectionCompagnon__container__tchat">
-                        <div>
-                            <img class="sectionCompagnon__container__tchat1" src="dist/images/sectionCompagnon_container_tchat1.svg" alt="cookease">
+                        <div class="sectionCompagnon__container__tchat__img">
+                            <img class="imgCookease" src="dist/images/sectionCompagnon_container_tchat1.svg" alt="cookease">
                         </div>
                         <div class="sectionCompagnon__container__tchat__bubble">
-                            <span class="sectionCompagnon__container__tchat__bubble__text1">Je débute une conversation !</span>
-                            <p class="sectionCompagnon__container__tchat__bubble__text2">
-                            Coucou moi c’est Cookease, de quoi as-tu besoin ?
-                            </p>
-                            <p class="sectionCompagnon__container__tchat__bubble__text3">
+                            <span class="sectionCompagnon__container__tchat__bubble__title">Je débute une conversation !</span>
+                            <div class="sectionCompagnon__container__tchat__bubble__bubble">
+                                <p class="sectionCompagnon__container__tchat__bubble__text">
+                                    Coucou moi c’est Cookease, de quoi as-tu besoin ?
+                                </p>
+                            </div>
+                            <p class="sectionCompagnon__container__tchat__bubble__text__text">
                                 Sélectionne la fonctionnalité qui correspond à ta demande
                             </p>
                             <div class="sectionCompagnon__container__tchat__bubble__buttons">
@@ -125,11 +132,11 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37" fill="none">
                                         <path d="M29.2917 1.54175H7.70833C3.45796 1.54175 0 4.99971 0 9.25008V27.7501C0 32.0005 3.45796 35.4584 7.70833 35.4584H29.2917C33.542 35.4584 37 32.0005 37 27.7501V9.25008C37 4.99971 33.542 1.54175 29.2917 1.54175ZM33.9167 27.7501C33.9167 30.3 31.8416 32.3751 29.2917 32.3751H7.70833C5.15842 32.3751 3.08333 30.3 3.08333 27.7501V9.25008C3.08333 6.70016 5.15842 4.62508 7.70833 4.62508H29.2917C31.8416 4.62508 33.9167 6.70016 33.9167 9.25008V27.7501ZM29.2917 10.7917C29.2917 11.6427 28.601 12.3334 27.75 12.3334H16.9583C16.1073 12.3334 15.4167 11.6427 15.4167 10.7917C15.4167 9.94075 16.1073 9.25008 16.9583 9.25008H27.75C28.601 9.25008 29.2917 9.94075 29.2917 10.7917ZM12.3333 10.7917C12.3333 12.0682 11.2973 13.1042 10.0208 13.1042C8.74433 13.1042 7.70833 12.0682 7.70833 10.7917C7.70833 9.51525 8.74433 8.47925 10.0208 8.47925C11.2973 8.47925 12.3333 9.51525 12.3333 10.7917ZM29.2917 18.5001C29.2917 19.3511 28.601 20.0417 27.75 20.0417H16.9583C16.1073 20.0417 15.4167 19.3511 15.4167 18.5001C15.4167 17.6491 16.1073 16.9584 16.9583 16.9584H27.75C28.601 16.9584 29.2917 17.6491 29.2917 18.5001ZM12.3333 18.5001C12.3333 19.7766 11.2973 20.8126 10.0208 20.8126C8.74433 20.8126 7.70833 19.7766 7.70833 18.5001C7.70833 17.2236 8.74433 16.1876 10.0208 16.1876C11.2973 16.1876 12.3333 17.2236 12.3333 18.5001ZM29.2917 26.2084C29.2917 27.0594 28.601 27.7501 27.75 27.7501H16.9583C16.1073 27.7501 15.4167 27.0594 15.4167 26.2084C15.4167 25.3574 16.1073 24.6667 16.9583 24.6667H27.75C28.601 24.6667 29.2917 25.3574 29.2917 26.2084ZM12.3333 26.2084C12.3333 27.4849 11.2973 28.5209 10.0208 28.5209C8.74433 28.5209 7.70833 27.4849 7.70833 26.2084C7.70833 24.9319 8.74433 23.8959 10.0208 23.8959C11.2973 23.8959 12.3333 24.9319 12.3333 26.2084Z" fill="white"/>
                                     </svg>
-                                    <p class="courses1">
+                                    <p class="sectionCompagnon__container__tchat__bubble__button_text">
                                         Courses
                                     </p>
                                 </button>
-                                <button class="ingredients" alt="button courses">
+                                <button class="ingredients" alt="button ingredients">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
                                         <g clip-path="url(#clip0_326_4984)">
                                           <path d="M35.2261 13.6875C34.7476 13.422 34.1656 13.4385 33.7021 13.7295L32.7166 14.3475C32.8831 13.7055 32.9986 13.047 32.9986 12.375C32.9986 10.3785 32.2276 8.57403 30.9991 7.18354C31.5181 7.06804 32.0566 6.91653 32.6356 6.68104C34.1911 6.04953 35.2381 4.65904 35.8366 3.62104C36.2326 2.93404 35.8756 2.05804 35.1136 1.84354C33.9601 1.51654 32.2411 1.25254 30.6856 1.88404C29.3176 2.44054 28.1476 3.73203 27.3316 4.85253C26.6266 4.64553 25.8961 4.49854 25.1251 4.49854C21.9631 4.49854 19.2481 6.38404 17.9971 9.07804L17.1376 7.12803C16.7146 6.16804 16.5001 5.15103 16.5001 4.10253V2.99854C17.3296 2.99854 18.0001 2.32804 18.0001 1.49854C18.0001 0.669035 17.3296 -0.00146484 16.5001 -0.00146484H6.00007C5.17057 -0.00146484 4.50007 0.669035 4.50007 1.49854C4.50007 2.32804 5.17057 2.99854 6.00007 2.99854V4.10253C6.00007 5.14953 5.78557 6.16804 5.36257 7.12803L4.01857 10.1775C3.45307 11.457 3.13507 12.8085 3.04057 14.196L2.29507 13.728C1.83307 13.4385 1.25257 13.4235 0.77107 13.686C0.29407 13.95 -0.00292969 14.4525 -0.00292969 14.9985V29.2485C-0.00292969 32.97 3.02557 35.9985 6.74707 35.9985H29.2471C32.9686 35.9985 35.9971 32.97 35.9971 29.2485V14.9985C35.9971 14.4525 35.7016 13.95 35.2231 13.686L35.2261 13.6875ZM25.1251 7.50004C27.8131 7.50004 30.0001 9.68704 30.0001 12.375C30.0001 13.332 29.7046 14.2545 29.1841 15.045L27.0601 13.725C26.5771 13.4235 25.9621 13.4235 25.4776 13.725L22.1341 15.8025L21.1441 15.1875C20.5591 14.3625 20.2486 13.3905 20.2486 12.375C20.2486 9.68704 22.4371 7.50004 25.1251 7.50004ZM6.76507 11.3895L8.10907 8.34003C8.70157 6.99604 9.00157 5.57103 9.00157 4.10554V3.00153H13.5016V4.10554C13.5016 5.57254 13.8016 6.99604 14.3941 8.34003L15.7381 11.3895C16.1326 12.285 16.3711 13.2255 16.4596 14.193L13.8661 15.804L10.5226 13.7265C10.0396 13.425 9.42457 13.425 8.94007 13.7265L6.00007 15.5535V15.0195C6.00007 13.761 6.25807 12.54 6.76507 11.3895ZM3.00007 29.25V17.712L4.79857 18.84C5.28157 19.146 5.89957 19.1475 6.38707 18.8445L9.73057 16.767L13.0741 18.843C13.5571 19.1445 14.1721 19.1445 14.6566 18.843L18.0001 16.7655L21.0001 18.6285V29.25C21.0001 30.6375 21.4231 31.926 22.1431 33H6.75007C4.68157 33 3.00007 31.3185 3.00007 29.25ZM33.0001 29.25C33.0001 31.3185 31.3186 33 29.2501 33H27.7501C25.6816 33 24.0001 31.3185 24.0001 29.25V18.1755L26.2696 16.767L29.6131 18.8445C30.0991 19.149 30.7171 19.1475 31.2016 18.84L33.0001 17.712V29.25Z" fill="white"/>
@@ -140,11 +147,11 @@
                                           </clipPath>
                                         </defs>
                                     </svg>
-                                    <p class="ingredients2">
+                                    <p class="sectionCompagnon__container__tchat__bubble__button_text">
                                         Ingredients
                                     </p>
                                 </button>
-                                <button class="recettes" alt="button courses">
+                                <button class="recettes" alt="button recettes">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
                                         <g clip-path="url(#clip0_326_4986)">
                                           <path d="M27.0002 19.4999H15.0002C14.1722 19.4999 13.5002 18.8294 13.5002 17.9999C13.5002 17.1704 14.1722 16.4999 15.0002 16.4999H27.0002C27.8297 16.4999 28.5002 17.1704 28.5002 17.9999C28.5002 18.8294 27.8297 19.4999 27.0002 19.4999ZM19.5002 13.4999H27.0002C27.8297 13.4999 28.5002 12.8294 28.5002 11.9999C28.5002 11.1704 27.8297 10.4999 27.0002 10.4999H19.5002C18.6722 10.4999 18.0002 11.1704 18.0002 11.9999C18.0002 12.8294 18.6722 13.4999 19.5002 13.4999ZM15.0002 22.4999C14.1722 22.4999 13.5002 23.1704 13.5002 23.9999C13.5002 24.8294 14.1722 25.4999 15.0002 25.4999H16.5002C17.3282 25.4999 18.0002 24.8294 18.0002 23.9999C18.0002 23.1704 17.3282 22.4999 16.5002 22.4999H15.0002ZM6.75021 13.4999C4.68321 13.4999 3.00021 11.8184 3.00021 9.74993V8.74343C2.24271 8.47643 1.56321 8.00693 1.03521 7.37093C0.17721 6.33593 -0.17079 4.97393 0.0812104 3.63743C0.39471 1.97693 1.71021 0.574425 3.35421 0.148425C4.48071 -0.142575 5.61321 -7.48038e-05 6.59421 0.535425C8.10621 -0.168075 9.89421 -0.168075 11.4062 0.533925C12.3872 -7.48038e-05 13.5212 -0.147075 14.6447 0.148425C16.2887 0.574425 17.6057 1.97843 17.9177 3.63743C18.1697 4.97543 17.8232 6.33593 16.9637 7.37093C16.4357 8.00693 15.7562 8.47643 14.9987 8.74343V9.74993C14.9987 11.8184 13.3157 13.4999 11.2487 13.4999H6.75021ZM6.75021 10.4999H11.2502C11.6642 10.4999 12.0002 10.1624 12.0002 9.74993V7.49993C12.0002 6.67043 12.6722 5.99993 13.5002 5.99993C13.9472 5.99993 14.3687 5.80193 14.6567 5.45693C14.8247 5.25293 15.0902 4.81943 14.9717 4.19393C14.8712 3.66143 14.4272 3.19043 13.8917 3.05093C13.2482 2.88593 12.7847 3.15593 12.5087 3.41243C11.9852 3.89693 11.1932 3.94493 10.6157 3.53243C9.64221 2.83493 8.36121 2.83493 7.38771 3.53243C6.81021 3.94493 6.01521 3.89693 5.49471 3.41243C5.27721 3.20993 4.94421 2.99993 4.49871 2.99993C4.37721 2.99993 4.24821 3.01643 4.11021 3.05093C3.57621 3.19043 3.13221 3.65993 3.03021 4.19393C2.91321 4.81943 3.17721 5.25293 3.34521 5.45693C3.63171 5.80193 4.05321 5.99993 4.50171 5.99993C5.32971 5.99993 6.00171 6.67043 6.00171 7.49993V9.74993C6.00171 10.1624 6.33621 10.4999 6.75021 10.4999ZM36.0002 7.49993V20.2724C36.0002 23.0774 34.9067 25.7144 32.9237 27.6974L27.6977 32.9234C25.7147 34.9064 23.0777 35.9999 20.2727 35.9999H13.5002C9.36471 35.9999 6.00021 32.6354 6.00021 28.4999V17.9999C6.00021 17.1704 6.67221 16.4999 7.50021 16.4999C8.32821 16.4999 9.00021 17.1704 9.00021 17.9999V28.4999C9.00021 30.9809 11.0192 32.9999 13.5002 32.9999H20.2727C20.5202 32.9999 20.7572 32.9519 21.0002 32.9294V25.4999C21.0002 23.0189 23.0192 20.9999 25.5002 20.9999H32.9297C32.9537 20.7569 33.0002 20.5199 33.0002 20.2724V7.49993C33.0002 5.01893 30.9812 2.99993 28.5002 2.99993H22.5002C21.6707 2.99993 21.0002 2.32943 21.0002 1.49993C21.0002 0.670425 21.6707 -7.47873e-05 22.5002 -7.47873e-05H28.5002C32.6357 -7.47873e-05 36.0002 3.36443 36.0002 7.49993ZM30.8027 25.5764C31.2752 25.1039 31.6487 24.5639 31.9742 23.9999H25.5002C24.6722 23.9999 24.0002 24.6719 24.0002 25.4999V31.9739C24.5642 31.6484 25.1042 31.2749 25.5767 30.8024L30.8027 25.5764Z" fill="white"/>
@@ -155,7 +162,7 @@
                                           </clipPath>
                                         </defs>
                                     </svg>
-                                    <p class="recettes3">
+                                    <p class="sectionCompagnon__container__tchat__bubble__button_text">
                                         Recettes
                                     </p>
                                 </button>

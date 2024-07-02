@@ -1,49 +1,108 @@
-.homeHero_textContainer__img__text1{
+.homeHero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.homeHero_textContainer{
+    width: 774px;
+    height: 505px;
+    flex-shrink: 0;
+}
+
+.homeHero_textContainer__img__title{
+    width: 774px;
+    height: 327px;
+    flex-shrink: 0;
+}
+
+.sloganTop{
     color: $typoColor;
+    /* H1 */
+    font-family: $thirdFontFamily;
+    font-size: $font-size-77px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px; /* 103.896% */
+}
+
+.sloganBottom{
+    color: $accentColor;
+    /* H1 */
+    font-family: $thirdFontFamily;
+    font-size: $font-size-77px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px; /* 103.896% */
+}
+
+.homeHero_textContainer__img__text{
+    color: $typoColor;
+    width: 509px;
+    /* Paragraphe */
+    font-family: $secondFontFamily;
+    font-size: $font-size-m;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+}
+
+.homeHero_textContainer__buttonContainer{
+    width: 595px;
+    height: 72px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
 }
 
 .conversation{
-    align-items: center;
-    background-color: $accentColor;
-    border-radius: 42px 42px 42px 0px;
-    cursor: pointer;
     display: inline-flex;
-    gap: 10px;
     height: 72px;
-    justify-content: center;
-    overflow: hidden;
     padding: 9px 26px 9px 24px;
-    position: relative;
-    transform: rotate(180deg);
-    color: $typoColorWhite;
-    font-family: $fontPrincipalFamily; //semibold à rajouter
-    font-size: $font-size-m;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 42px 42px 42px 0px;
+    background: $accentColor;
+    width: 286px;
+    text-align: center;
+    font-style: normal;
     font-weight: 600;
     line-height: normal;
-    text-align: center;
+    /*cursor: pointer;
     white-space: nowrap;
-    width: fit-content;
+    width: fit-content;*/
+    color: $typoColorWhite;
+    font-family: $fontPrincipalFamily;
+    font-size: $font-size-m;
 }
 
 .configuration{
-    align-items: center;
-    border: 2px solid;
-    border-color: $accentColor;
-    border-radius: 42px 42px 42px 0px;
     display: inline-flex;
-    gap: 10px;
     height: 72px;
-    justify-content: center;
-    overflow: hidden;
     padding: 9px 26px 9px 24px;
-    position: relative;
-    color: $accentColor;
-    font-family: $fontPrincipalFamily; //semibold à rajouter
-    font-size: $font-size-m;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 42px 42px 42px 0px;
+    border: 2px solid $accentColor;
+    text-align: center;
+    font-style: normal;
     font-weight: 600;
     line-height: normal;
-    text-align: center;
-    white-space: nowrap;
-    width: fit-content;
-    
+    /*white-space: nowrap;
+    width: fit-content;*/
+    color: $accentColor;
+    font-family: $fontPrincipalFamily;
+    font-size: $font-size-m;
+}
+
+.homeHero_img{
+    width: 794px;
+    height: 530px;
+    flex-shrink: 0;
+    border-radius: 42px;
+    overflow: auto;
 }

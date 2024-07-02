@@ -1,27 +1,184 @@
+.sectionCompagnon{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 124px;
+}
+
 .sectionCompagnon__container{
+    width: 1304.064px;
+    height: 665px;
+    flex-shrink: 0;
     align-items: center;
     display: flex;
-    gap: 20px;
-    margin-left: 2.06px;
+    display: block;
+    /*margin-left: 2.06px;
     margin-top: 60px;
-    min-width: 1304px;
+    min-width: 1304px;*/
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .sectionCompagnon__container__text{
+    width: 641px;
+    height: 391px;
+    flex-shrink: 0;
     align-items: flex-start;
-    gap: 57px;
+    gap: 56px;
     margin-top: 97.0px;
     min-height: 392px;
+    display: inline
+    /*display: flex;
+    flex-direction: column;*/
+}
+
+.sectionCompagnon__container__title{
     width: 641px;
+    color: $typoColor;
+    /* H3 */
+    font-family: $fontPrincipalFamily;
+    font-size: $font-size-xl;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sectionCompagnon__container__text__text{
+    width: 508px;
+    height: 255px;
+    flex-shrink: 0;
+    display: inline;
+    gap: 33px;
+}
+
+.sectionCompagnon__container__text__text__advantage1{
+    display: block;
+    width: 508px;
+    height: 72px;
+    flex-shrink: 0;
+}
+
+.advantageIcon{
+    width: 20.24px;
+    height: 15px;
+    flex-shrink: 0;
+    fill: $thirdColor;
+}
+
+.advantage__text{
+    width: 475px;
+    color: $typoColor;
+    /* Paragraphe */
+    font-family: $secondFontFamily;
+    font-size: $font-size-m;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
 }
 
 .sectionCompagnon__container__tchat{
+    width: 643.064px;
     height: 665px;
+    flex-shrink: 0;
     position: relative;
-    width: 643px;
 }
 
-.sectionCompagnon__container__text{
+.sectionCompagnon__container__tchat__img{
+    position: absolute;
     display: flex;
-    flex-direction: column;
+    width: 301.499px;
+    height: 226.434px;
+    transform: rotate(0.654deg);
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.sectionCompagnon__container__tchat__bubble{
+    width: 641px;
+    height: 486px;
+    flex-shrink: 0;
+    display: inline;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionCompagnon__container__tchat__bubble__title{
+    width: 640px;
+    height: 41px;
+    flex-shrink: 0;
+    color: $typoColor;
+    text-align: center;
+    /* H3 */
+    font-family: $fontPrincipalFamily;
+    font-size: $font-size-xl;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sectionCompagnon__container__tchat__bubble__bubble{
+    display: inline-flex;
+    height: 52px;
+    padding: 9px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 42px 42px 42px 0px;
+    background: $typoColor;
+}
+.sectionCompagnon__container__tchat__bubble__text{
+    color: $typoColorWhite;
+    text-align: center;
+    font-family: $secondFontFamily;
+    font-size: $font-size-m;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+}
+
+.sectionCompagnon__container__tchat__bubble__text__text{
+    width: 481px;
+    height: 37px;
+    flex-shrink: 0;
+    color: $typoOptionColor;
+    text-align: right;
+    font-family: $secondFontFamily;
+    font-size: $font-size-xs;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.sectionCompagnon__container__tchat__bubble__buttons{
+    width: 585px;
+    height: 140px;
+    flex-shrink: 0;
+    display: block;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.courses, .ingredients, .recettes{
+    width: 185px;
+    height: 140px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: $accentColor;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+}
+
+.sectionCompagnon__container__tchat__bubble__button_text{
+    width: 185px;
+    height: 41px;
+    flex-shrink: 0;
+    color: $typoColorWhite;
+    text-align: center;
+    /* Paragraphe */
+    font-family: $secondFontFamily;
+    font-size: $font-size-m;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
 }
