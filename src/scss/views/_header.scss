@@ -56,6 +56,7 @@
     gap: 24px;
     display: flex;
     align-items: center;
+    flex-direction :row;
 }
 
 .signUp{
@@ -85,10 +86,12 @@
     padding: 0; /* Retire le padding par défaut */
     margin: 0; /* Retire la marge par défaut */
     display: flex; /* Place les éléments en ligne */
+    flex-direction :row;
 }
 
 .header__rightContainer__rightLinks li {
     margin-right: 50px; /* Espacement entre les éléments */
+    flex-direction :row;
 }
 
 .header__rightContainer__rightLinks a {
@@ -109,7 +112,7 @@
     line-height: 24px; /* 120% */
     height: 24.273px;
     flex-shrink: 0;
-
+    flex-direction :row;
 }
 
 .hr {

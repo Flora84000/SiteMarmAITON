@@ -7,8 +7,9 @@
     height: 428px;
     flex-shrink: 0;
     margin: 0 auto;
-    flex-direction: column;
     gap: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .sectionCookease__img{
@@ -17,6 +18,7 @@
     width: 132px;
     align-items: center;
     display: flex;
+    justify-content: center;
 }
 
 .sectionCookease__img__title{

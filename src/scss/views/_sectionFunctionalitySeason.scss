@@ -1,15 +1,17 @@
+.sectionFunctionalitySeason{
+    margin-top: 153px;
+}
+
 .sectionFunctionalitySeason__container{
-    align-items: flex-start;
     background-color: $primaryColor;
     border: 2px solid;
     border-color: $accentColor;
     border-radius: 42px;
-    display: flex;
-    flex-direction: column;
     gap: 2px;
     min-height: 663px;
     padding: 104px 111px;
     width: 1304px;
+    margin: 0 auto;
 }
 
 .sectionFunctionalitySeason__container__left{
